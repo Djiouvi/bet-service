@@ -1,0 +1,13 @@
+spring:
+    profiles:
+        active: dev
+    devtools:
+        restart:
+            enabled: false
+            additional-exclude: static/**
+        livereload:
+            enabled: false
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: root
+        password: root
